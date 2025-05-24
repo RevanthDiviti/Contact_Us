@@ -1,0 +1,22 @@
+.hero{
+    display: flex;
+    max-width: 1161px;
+    margin: 0 auto;
+}
+.contact-us h1{
+    font-weight: 800;
+    font-size: 48px;    
+}
+.contact-us p{
+    max-width: 975px;
+    columns: #5A5959;
+    font-weight: 600;
+    font-size: 16px;
+}
+.details{
+    display: flex;
+}
+.image img{
+    width: 608px;
+    height: 615px;
+}
