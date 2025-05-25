@@ -12,12 +12,17 @@
   list-style: none;
   gap: 20px;
 }
-.logo{
-    cursor: pointer;
+.logo {
+  cursor: pointer;
 }
-.tabs ul li{
-    cursor: pointer;
+.tabs ul li {
+  cursor: pointer;
 }
-.tabs ul li:hover{
-    font-weight: 600;
+.tabs ul li:hover {
+  font-weight: 600;
+}
+@media(max-width:720px){
+  .tabs ul {
+    margin-right: 280px;
+  }
 }

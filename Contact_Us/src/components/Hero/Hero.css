@@ -1,22 +1,97 @@
-.hero{
-    display: flex;
-    max-width: 1161px;
-    margin: 0 auto;
+.hero {
+  max-width: 1161px;
+  margin: 0 auto;
 }
-.contact-us h1{
-    font-weight: 800;
-    font-size: 48px;    
+.contact-us h1 {
+  width: 315px;
+  height: 72px;
+  font-weight: 800;
+  font-size: 48px;
 }
-.contact-us p{
-    max-width: 975px;
-    columns: #5A5959;
-    font-weight: 600;
-    font-size: 16px;
+.contact-us p {
+  max-width: 975px;
+  columns: #5a5959;
+  font-weight: 600;
+  font-size: 16px;
 }
-.details{
-    display: flex;
+.details {
+  display: flex;
 }
-.image img{
-    width: 608px;
-    height: 615px;
+.image img {
+  width: 508.87px;
+  height: 488.31px;
+}
+.details {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 472px;
+  height: 457px;
+  gap: 20px;
+}
+.form span {
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+}
+.form span button {
+  width: 220px;
+  height: 44px;
+  background: #000;
+  border-radius: 5px;
+  color: #fff;
+}
+.form button {
+  width: 472px;
+  height: 42px;
+  font-weight: 600;
+  border: 1px solid #000;
+  background: #fff;
+  border-radius: 5px;
+}
+.form input {
+  width: 440px;
+  height: 40px;
+  border: 1px solid #5a5959;
+}
+.form textarea {
+  width: 440px;
+  height: 120px;
+  border: 1px solid #5a5959;
+}
+
+.form #submit-btn {
+  margin-left: 50%;
+  width: 220px;
+  height: 44px;
+  border-radius: 5px solid #000;
+  background: #000;
+  color: #fff;
+}
+@media(max-width:1000px){
+
+    .details{
+        display: flex;
+        align-items: center;
+        width: 570px;
+    }
+}
+@media(max-width:720px){
+    .contact-us{
+        margin-left: 10%;
+        width: 400px;
+    }
+    .details{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 550px;
+        flex-direction: column-reverse;
+    }
 }
